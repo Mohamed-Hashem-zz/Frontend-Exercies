@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    background-color: #eee;
+}
+
+.col-md-3 {
+    background-color: #aaa;
+}
+
+span {
+    top: -5px;
+    right: -5px;
+    border-radius: 10px;
+}

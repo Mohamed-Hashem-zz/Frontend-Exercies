@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial';
+}
+
+.repo-container {
+    width: 80%;
+    background-color: #bbb;
+    margin: 30px auto;
+}
+
+.repo-container .github {
+    background-color: #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.repo-container .github input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    font-size: 20px;
+    height: 54px;
+}
+
+.repo-container .github button {
+    width: 15%;
+    height: 54px;
+    margin-left: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(238, 39, 79);
+    color: #fff;
+    border: none;
+}
+
+.repo-container .github input:focus {
+    outline: 2px solid rgb(238, 39, 79);
+}
+
+.repo-container .repoShowData {
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.repos {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 8px;
+}
+
+.repos p {
+    width: 80%;
+}
+
+.repos .btns {
+    width: 20%;
+    display: flex;
+}
+
+.repos .btns .stars,
+.visit {
+    width: 50%;
+    background-color: #bac;
+    padding: 10px 30px;
+    background-color: rgb(201, 53, 83);
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.repos .btns .stars {
+    background-color: #009688;
+}
+
+.repos .btns .star {
+    margin-left: 5px;
+}
