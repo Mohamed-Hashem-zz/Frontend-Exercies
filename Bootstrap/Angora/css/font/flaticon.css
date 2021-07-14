@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?2c28dc94e3606eeae460b4e93375e0bc") format("truetype"),
+url("./flaticon.woff?2c28dc94e3606eeae460b4e93375e0bc") format("woff"),
+url("./flaticon.woff2?2c28dc94e3606eeae460b4e93375e0bc") format("woff2"),
+url("./flaticon.eot?2c28dc94e3606eeae460b4e93375e0bc#iefix") format("embedded-opentype"),
+url("./flaticon.svg?2c28dc94e3606eeae460b4e93375e0bc#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-equalizer:before {
+    content: "\f101";
+}
+.flaticon-flag:before {
+    content: "\f102";
+}
+.flaticon-headphone:before {
+    content: "\f103";
+}
+.flaticon-management:before {
+    content: "\f104";
+}
+.flaticon-notebook-computer:before {
+    content: "\f105";
+}
+.flaticon-pencil:before {
+    content: "\f106";
+}
+.flaticon-to-do-list:before {
+    content: "\f107";
+}
+.flaticon-video-camera:before {
+    content: "\f108";
+}

@@ -1,0 +1,37 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?ff5c32f2dbb043bfd2f0feee1cc9232b") format("truetype"),
+url("./flaticon.woff?ff5c32f2dbb043bfd2f0feee1cc9232b") format("woff"),
+url("./flaticon.woff2?ff5c32f2dbb043bfd2f0feee1cc9232b") format("woff2"),
+url("./flaticon.eot?ff5c32f2dbb043bfd2f0feee1cc9232b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ff5c32f2dbb043bfd2f0feee1cc9232b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "envelope": "\f101",
+    "map": "\f102",
+    "mobile-phone": "\f103",
+);
+
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-map:before {
+    content: map-get($flaticon-map, "map");
+}
+.flaticon-mobile-phone:before {
+    content: map-get($flaticon-map, "mobile-phone");
+}
