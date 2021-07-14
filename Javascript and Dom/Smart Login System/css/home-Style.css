@@ -1,0 +1,32 @@
+body {
+    background-color: #24353F !important;
+}
+
+nav {
+    font-family: sans-serif;
+    color: white !important;
+    overflow: hidden;
+    box-shadow: 2px -4px 35px 15px rgba(0, 0, 0, 0.5);
+}
+
+nav div .logout {
+    border: 1px solid #FFC107 !important;
+    border-radius: 5px;
+    padding: 5px;
+    color: #B6B6B2 !important;
+}
+
+nav div .logout:hover {
+    background-color: #FFC107 !important;
+    color: white !important;
+}
+
+section {
+    color: #17A2B8 !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    box-shadow: 2px -4px 35px 15px rgba(0, 0, 0, 0.5);
+}

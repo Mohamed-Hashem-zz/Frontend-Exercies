@@ -1,0 +1,54 @@
+.card {
+    position: relative;
+}
+
+.card .caption {
+    background-color: #fff;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    font-family: 'Arial';
+}
+
+.card img {
+    cursor: pointer;
+}
+
+#LayerContainer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#LayerContainer #boxItem {
+    width: 50%;
+    height: 500px;
+    background-image: url("../img/portfolio-1.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#LayerContainer #boxItem i {
+    font-size: 2rem;
+    margin: 2%;
+    cursor: pointer;
+}
+
+#LayerContainer #boxItem #exit {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}

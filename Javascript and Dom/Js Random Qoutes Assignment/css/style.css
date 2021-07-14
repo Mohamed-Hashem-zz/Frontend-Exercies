@@ -1,0 +1,28 @@
+div {
+    text-align: center;
+    width: 50%;
+    height: auto;
+    margin: auto;
+
+}
+
+div h1 {
+    font-size: 80px;
+}
+
+div p {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+div a {
+    text-decoration: none;
+    padding: 30px 80px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+div a:hover {
+    background-color: green;
+}

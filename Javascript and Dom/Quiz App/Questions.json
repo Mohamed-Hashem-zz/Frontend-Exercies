@@ -1,0 +1,222 @@
+[
+    {
+        "category": "Entertainment: Comics",
+        "question": "Who is the creator of the comic series &quot;The Walking Dead&quot;?",
+        "right_answer": "Robert Kirkman",
+        "answers": [
+            "Robert Kirkman",
+            "Stan Lee",
+            "Malcolm Wheeler-Nicholson",
+            "Robert Crumb"
+        ]
+    },
+    {
+        "category": "Entertainment: Comics",
+        "question": "What is the alter-ego of the DC comics character &quot;Superman&quot;?",
+        "right_answer": "Clark Kent",
+        "answers": [
+            "Clark Kent",
+            "Bruce Wayne",
+            "Arthur Curry",
+            "John Jones"
+        ]
+    },
+    {
+        "category": "Entertainment: Comics",
+        "question": "The main six year old protagonist in Calvin and Hobbes is named after what theologian?",
+        "right_answer": "John Calvin",
+        "answers": [
+            "Calvin Klein",
+            "John Calvin",
+            "Calvin Coolidge",
+            "Phillip Calvin McGraw"
+        ]
+    },
+    {
+        "category": "Entertainment: Comics",
+        "question": "In &quot;Homestuck&quot; what is Dave Strider&#039;s guardian?",
+        "right_answer": "Bro",
+        "answers": [
+            "Becquerel",
+            "Doc Scratch",
+            "Bro",
+            "Halley"
+        ]
+    },
+    {
+        "category": "Entertainment: Comics",
+        "question": "In &quot;Homestuck&quot; the &quot;Kingdom of Darkness&quot; is also known as?",
+        "right_answer": "Derse",
+        "answers": [
+            "Derse",
+            "Skaia",
+            "Prospit",
+            "The Medium"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "question": "Which American author was also a budding travel writer and wrote of his adventures with his dog Charley?",
+        "right_answer": "John Steinbeck",
+        "answers": [
+            "F. Scott Fitzgerald",
+            "Ernest Hemingway",
+            "William Faulkner",
+            "John Steinbeck"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "question": "What position does Harry Potter play in Quidditch?",
+        "right_answer": "Seeker",
+        "answers": [
+            "Beater",
+            "Chaser",
+            "Keeper",
+            "Seeker"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "question": "What is the fourth book of the Old Testament?",
+        "right_answer": "Numbers",
+        "answers": [
+            "Genesis",
+            "Exodus",
+            "Numbers",
+            "Leviticus"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "question": "Which of these book series is by James Patterson?",
+        "right_answer": "Maximum Ride",
+        "answers": [
+            "Harry Potter",
+            "The Legend of Xanth",
+            "Maximum Ride",
+            "The Bartemaeus Trilogy"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "question": "In Alice in Wonderland, what is the name of Alice&#039;s kitten?",
+        "right_answer": "Dinah",
+        "answers": [
+            "Oscar",
+            "Heath",
+            "Dinah",
+            "Smokey"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "question": "Which of these programming languages is a low-level language?",
+        "right_answer": "Assembly",
+        "answers": [
+            "Python",
+            "C#",
+            "Pascal",
+            "Assembly"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "question": "What does the term GPU stand for?",
+        "right_answer": "Graphics Processing Unit",
+        "answers": [
+            "Gaming Processor Unit",
+            "Graphics Processing Unit",
+            "Graphite Producing Unit",
+            "Graphical Proprietary Unit"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "question": "Laserjet and inkjet printers are both examples of what 'type' of printer?",
+        "right_answer": "Non-impact printer",
+        "answers": [
+            "Non-impact printer",
+            "Impact printer",
+            "Daisywheel printer",
+            "Dot matrix printer"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "question": "Moore&#039;s law originally stated that the number of transistors on a microprocessor chip would double every...",
+        "right_answer": "Year",
+        "answers": [
+            "Four Years",
+            "Two Years",
+            "Eight Years",
+            "Year"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "question": "What does the &#039;S&#039; in the RSA encryption algorithm stand for?",
+        "right_answer": "Shamir",
+        "answers": [
+            "Shamir",
+            "Secure",
+            "Schottky",
+            "Stable"
+        ]
+    },
+    {
+        "category": "Science: Mathematics",
+        "question": "What is the area of a circle with a diameter of 20 inches if &pi;= 3.1415?",
+        "right_answer": "314.15 Inches",
+        "answers": [
+            "380.1215 Inches",
+            "3141.5 Inches",
+            "314.15 Inches",
+            "1256.6 Inches"
+        ]
+    },
+    {
+        "category": "Science: Mathematics",
+        "question": "What is the Roman numeral for 500?",
+        "right_answer": "D",
+        "answers": [
+            "L",
+            "C",
+            "X",
+            "D"
+        ]
+    },
+    {
+        "category": "Science: Mathematics",
+        "question": "To the nearest whole number, how many radians are in a whole circle?",
+        "right_answer": "6",
+        "answers": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "category": "Science: Mathematics",
+        "question": "What Greek letter is used to signify summation?",
+        "right_answer": "Sigma",
+        "answers": [
+            "Delta",
+            "Alpha",
+            "Sigma",
+            "Omega"
+        ]
+    },
+    {
+        "category": "Science: Mathematics",
+        "question": "How many books are in Euclid&#039;s Elements of Geometry?",
+        "right_answer": "13",
+        "answers": [
+            "13",
+            "8",
+            "10",
+            "17"
+        ]
+    }
+]

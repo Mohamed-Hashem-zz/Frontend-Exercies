@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/signIn-style.css" />
+    <link rel="shortcut icon" href="imgs/home.png" type="image/x-icon">
+
+  </head>
+
+  <body>
+
+
+    <div class="w-50 p-5 text-center ">
+      <h1>Smart Login System</h1>
+      <input type="email" id="email" class="form-control my-3" placeholder="Enter Your Email">
+      <input type="password" id="password" class="form-control my-3" placeholder="Enter Your Password">
+      <p id="emptyData" class="text-warning py-3 my-4 bg-signIn d-none">Please Enter Data don't leave the inputs empty
+      </p>
+
+      <div id="divBlock" class="w-50 py-3 text-danger d-none">
+        <p class="mt-3">Please Enter Valid Data</p>
+      </div>
+
+      <button class="form-control" id="login">Login</button>
+      <p class="my-3 text-white">Don’t have an account? <a href="signUp.html" class="text-white">Sign Up</a></p>
+    </div>
+
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/signIn.js"></script>
+  </body>
+
+</html>

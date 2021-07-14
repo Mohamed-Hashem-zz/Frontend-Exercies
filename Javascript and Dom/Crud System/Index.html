@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Crud System</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="crud p-5 mx-auto my-5 card">
+
+            <label for="productName">Product Name :</label>
+            <input onkeyup="validateName(this.value)" class="form-control mb-3" type="text" name="productName" required
+                id="productName">
+
+            <div id="alert" class="alert alert-danger text-center my-2">
+                Name must start with Upper case
+            </div>
+
+            <label for="productCate">Product Category:</label>
+            <input class="form-control mb-3" type="text" name="productCate" id="productCate" required>
+
+            <label for="productPrice">Product Price:</label>
+            <input class="form-control mb-3" type="number" name="productPrice" id="productPrice" required>
+            <label for="productDesc">Product Description:</label>
+
+            <textarea class="form-control mb-3" name="productDesc" id="productDesc" cols="10" rows="5"></textarea>
+
+            <button id="addProductBtn" type="submit" class="btn bg-info form-control  text-white">Add Product</button>
+        </div>
+
+        <div class="container">
+
+            <div class="search mx-auto w-25 my-5">
+                <input onkeyup="Search()" id="search" type="search" name="search" class="form-control"
+                    placeholder="Search ...">
+            </div>
+            <table class="table text-center table-hover">
+                <thead>
+                    <th>Index</th>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Description</th>
+                    <th>Delete</th>
+                    <th>Update</th>
+                </thead>
+                <tbody id="dataContainer"></tbody>
+            </table>
+        </div>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
